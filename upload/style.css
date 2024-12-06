@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+body * {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  white-space: pre-line;
+  word-break: break-word;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+body > :not(:last-child) {
+  margin-bottom: 2rem;
+}
